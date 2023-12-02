@@ -1,0 +1,149 @@
+body {
+    background-color: hsl(0, 0%, 80%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Interest Calculator */
+
+#int-calc {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: hsl(0, 0%, 30%);
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    background-color: white;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input {
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid hsl(0, 0%, 90%);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.interest-calculator {
+    background-color: hsl(0, 100%, 40%);
+    color: white;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 0%, 0.3);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.interest-calculator:hover {
+    background-color: hsl(0, 100%, 30%);
+}
+
+#total {
+    font-size: 2rem;
+}
+
+#total-amount {
+    color: hsl(0, 100%, 35%);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Calculator */
+
+h2 {
+    color: hsl(0, 0%, 30%);
+    margin: 10rem 1.34rem 1.34rem 1.34rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+}
+
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.button-calc,
+.calculate,
+.operator {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button-calc:hover,
+.calculate:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+.button-calc:active,
+.calculate:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator{
+    background-color: hsla(35, 100%, 45%);
+}
+
+.operator:hover{
+    background-color: hsla(35, 100%, 55%);
+}
+
+.operator:active{
+    background-color: hsla(35, 100%, 65%);
+}
